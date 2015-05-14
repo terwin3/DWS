@@ -83,9 +83,13 @@ p {
 }
 
 #footer {
-color: white;
+color: #fff;
 border-style: none;
 background-color: rgb(140,70,70);
+}
+
+#nav {
+	text-align: center;
 }
 
 
