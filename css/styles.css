@@ -1,7 +1,7 @@
 
-header {
+h5 {
     opacity: 0.8;
-	font-family arial;
+	font-family: arial;
 	font-size: 1em;
 	font-style: italic;
 	text-shadow: -2px 2px 2px #999;
@@ -18,10 +18,11 @@ header {
 
 h1 {
 	color: #588C7E;
-	background-color: #363738
 	border:  0px;
 	font-family: Kaushan Script;
 	font-size: 2.5em;
+	font-style: italic;
+	text-shadow: -1px 2px 2px #999;
 	margin: auto;
 }
 
@@ -33,11 +34,10 @@ h2	{
 	text-align: center;
 }
 
-h3	{
+h3, h4	{
 	color: #F2E394;
 	font-family: arial;
 	font-size: 1em;
-	font-weight: italic;
 	text-align: center;
 }
 
@@ -61,6 +61,10 @@ a:hover {
 		
 a:visited {
 	color:  #F2E394;
+}
+
+.displayed:hover {
+	box-shadow: 0 0 10px #fff;
 }
 
 a {
@@ -87,16 +91,18 @@ p {
 	
 }
 
+img.displayed {
+	border: 1px solid #fff;
+	padding: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #footer {
 color: white;
 border-style: none;
 background-color: rgb(140,70,70);
-}
-
-img.displayed {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 
