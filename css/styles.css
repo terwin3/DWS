@@ -1,14 +1,4 @@
-
-h5 {
-    opacity: 0.8;
-	font-family: arial;
-	font-size: 1em;
-	font-style: italic;
-	text-shadow: -2px 2px 2px #999;
-	margin: auto;
-
-}
-
+		/***** Styles for anything in the div container*****/
 #container {
 	border: 1px solid #665544;
 	background-color: rgb(140,70,70);
@@ -16,6 +6,7 @@ h5 {
 	padding: 10px;
 }
 
+		/***** Styles for headings *****/
 h1 {
 	color: #588C7E;
 	border:  0px;
@@ -41,6 +32,18 @@ h3, h4	{
 	text-align: center;
 }
 
+
+
+h5 {
+    opacity: 0.8;
+	font-family: arial;
+	font-size: 1em;
+	font-style: italic;
+	text-shadow: -2px 2px 2px #999;
+	margin: auto;
+}
+
+		/***** Styles for lists****/       
 ul, li {
     list-style-type: none;
     display: inline;
@@ -51,6 +54,8 @@ ul, li {
 
 }
 
+
+		/**** Styles for links****/
 a:link {
 	color: #FFF;
 }
@@ -76,6 +81,7 @@ a {
 	
 }
 
+		/***** Styles for all paragraphs ****/
 p {
 	
 	color: rgb(242,227,148);
@@ -84,6 +90,7 @@ p {
 	padding: 20px;
 	width: 700px;
 	text-align: center;
+	line-height: 1.4;
 	font-family: serif;
 	font-weight: normal;
 	border: 1px solid rgb(242,227,148);
@@ -91,6 +98,7 @@ p {
 	
 }
 
+		/***** Styles for images *****/
 img.displayed {
 	border: 1px solid #fff;
 	padding: 0px;
