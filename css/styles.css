@@ -1,7 +1,7 @@
 		/***** Styles for anything in the div container*****/
 #container {
 	border: 3px solid #000;
-	background-color: rgb(140,70,70);
+	background: -webkit-radial-gradient(center, ellipse cover, #a90329 38%,#6d0019 99%);
 	border-radius: 10px;
 	padding: 10px;
 	width: 960px;
@@ -64,13 +64,9 @@ ul.lists, ol.bottomlist {
     font-weight: 800;
     float: left;
     display: inline;
-    clear: both;
- 
-   
+
 }
     
-
-
 
 		/**** Styles for links****/
 a:link {
@@ -91,13 +87,7 @@ a:visited {
 }
 
 a {
-	
-	
 	text-decoration: none;
-
-	
-	
-	
 }
 
 		/***** Styles for all paragraphs ****/
