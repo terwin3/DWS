@@ -5,9 +5,8 @@
 	border-radius: 10px;
 	padding: 10px;
 	width: 960px;
-	margin: 10px auto;
+	margin: 1.04% auto;
 	
-
 }
 
 		/***** Styles for headings *****/
@@ -25,7 +24,7 @@ h1 {
 h2	{
     color: #F2E394;
     padding: 20px 10px;
-    margin: 30px auto;
+    margin: 3.12% auto;
 	font-family: Kaushan Script, Sans Serif;
 	font-size: 1.56em;
 	text-align: center;
@@ -48,8 +47,7 @@ color: white;
 
 h5 {
     opacity: 0.8;
-	font-family: 'Oswald', sans-serif;
-	color: #; 
+	font-family: 'Oswald', sans-serif; 
 	font-size: 1em;
 	font-weight: 400;
 	text-shadow: -2px 2px 2px #999;
@@ -59,13 +57,14 @@ h5 {
 		/***** Styles for lists****/       
 ul.lists, ol.bottomlist {
     list-style-type: none;
-    margin: 10px 10px;
+    margin: 3.12% 3.12%;
     padding: 10px;
     font-family: arial;
     font-size: 1em;
     font-weight: 800;
     float: left;
     display: inline;
+    clear: both;
  
    
 }
@@ -116,7 +115,7 @@ p {
 
 		/***** Styles for images *****/
 img.displayed {
-	border: 1px solid yellow;
+	border: 1px solid rgb(242,227,148);
 	padding: 0px;
 	display: block;
 	margin-left: auto;
@@ -124,9 +123,9 @@ img.displayed {
 }
 
 .footer {
-	color: #fff;
+	color: #000;
 	font-size: 15px;
-	width: 300px;
+	width: 31.25%;
 	text-align: center;
 	margin: 10px auto;
 }
@@ -134,5 +133,6 @@ img.displayed {
 
 .bottomlist {
 	text-align: center;
-	}
+	list-style-type: none;
+}
 
