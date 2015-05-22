@@ -1,63 +1,81 @@
 		/***** Styles for anything in the div container*****/
 #container {
-	border: 1px solid #665544;
+	border: 3px solid #000;
 	background-color: rgb(140,70,70);
 	border-radius: 10px;
 	padding: 10px;
+	width: 960px;
+	margin: 10px auto;
+	
+
 }
 
 		/***** Styles for headings *****/
 h1 {
-	color: #588C7E;
+	color: #F2AE72;
 	border:  0px;
-	font-family: Kaushan Script;
+	font-family: Kaushan Script, Sans Serif;
 	font-size: 2.5em;
 	font-style: italic;
-	text-shadow: -1px 2px 2px #999;
+	text-shadow: -2px 2px 2px #999;
 	margin: auto;
+	
 }
 
 h2	{
     color: #F2E394;
     padding: 20px 10px;
-	font-family: Kaushan Script;
+    margin: 30px auto;
+	font-family: Kaushan Script, Sans Serif;
 	font-size: 1.56em;
 	text-align: center;
 }
 
-h3, h4	{
-	color: #F2E394;
-	font-family: arial;
+h3	{
+	color: #F2AE72;
+	font-family: arial, Sans Serif;
 	font-size: 1em;
-	text-align: center;
+	
 }
 
+h4 {
 
+font-family: arial, sans serif;
+font-size: 1em;
+color: white;
+
+}
 
 h5 {
     opacity: 0.8;
-	font-family: arial;
+	font-family: 'Oswald', sans-serif;
+	color: #; 
 	font-size: 1em;
-	font-style: italic;
+	font-weight: 400;
 	text-shadow: -2px 2px 2px #999;
 	margin: auto;
 }
 
 		/***** Styles for lists****/       
-ul, li {
+ul.lists, ol.bottomlist {
     list-style-type: none;
-    display: inline;
-    margin: 0px auto;
-    padding: 20px 10px;
+    margin: 10px 10px;
+    padding: 10px;
     font-family: arial;
     font-size: 1em;
-
+    font-weight: 800;
+    float: left;
+    display: inline;
+ 
+   
 }
+    
+
 
 
 		/**** Styles for links****/
 a:link {
-	color: #FFF;
+	color: #C28B2D;
 }
 
 a:hover {
@@ -65,7 +83,8 @@ a:hover {
 }
 		
 a:visited {
-	color:  #F2E394;
+	color: #588c7e;
+	
 }
 
 .displayed:hover {
@@ -73,11 +92,12 @@ a:visited {
 }
 
 a {
-	color: #F2E394;
+	
+	
 	text-decoration: none;
-	margin:  auto;
-	padding: 0px;
-	width: 300px;
+
+	
+	
 	
 }
 
@@ -85,14 +105,10 @@ a {
 p {
 	
 	color: rgb(242,227,148);
-	background-color: #303030;
-    margin: 20px auto;
 	padding: 20px;
-	width: 700px;
-	text-align: center;
+	background-image: url("../images/pattern.gif");
 	line-height: 1.4;
-	font-family: serif;
-	font-weight: normal;
+	font-family: serif, arial;
 	border: 1px solid rgb(242,227,148);
 	border-radius: 10px;
 	
@@ -100,21 +116,23 @@ p {
 
 		/***** Styles for images *****/
 img.displayed {
-	border: 1px solid #fff;
+	border: 1px solid yellow;
 	padding: 0px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#footer {
-color: white;
-border-style: none;
-background-color: rgb(140,70,70);
+.footer {
+	color: #fff;
+	font-size: 15px;
+	width: 300px;
+	text-align: center;
+	margin: 10px auto;
 }
 
 
-
-
-
+.bottomlist {
+	text-align: center;
+	}
 
