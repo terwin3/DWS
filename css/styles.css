@@ -113,6 +113,7 @@ img.displayed {
 	font-size: 15px;
 	text-align: center;
 	margin: 10px auto;
+	clear: both;
 }
 
 
@@ -132,7 +133,7 @@ img.displayed {
 	float: right;
 	width: 550px;
 	clear: right;
-	color: #666;
+	color: #F2AE72;
 	
 	
 	
@@ -140,7 +141,9 @@ img.displayed {
 
 .bottomheading {
 
-	color: #999;
+	color: #F2AE72;
 	font-family: Kaushan Script, 'sans-serif';
+	font-size: 1.4em;
 }
+	
 	
