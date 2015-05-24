@@ -1,11 +1,12 @@
 		/***** Styles for anything in the div container*****/
-#container {
+.container {
 	border: 3px solid #000;
 	background: -webkit-radial-gradient(center, ellipse cover, #a90329 38%,#6d0019 99%);
 	border-radius: 10px;
 	padding: 10px;
 	width: 960px;
 	margin: 1.04% auto;
+	float: left;
 	
 }
 
@@ -25,7 +26,7 @@ h2	{
     color: #F2E394;
     padding: 20px 10px;
     margin: 3.12% auto;
-	font-family: Kaushan Script, Sans Serif;
+	font-family: Kaushan Script, 'sans-serif';
 	font-size: 1.56em;
 	text-align: center;
 }
@@ -37,17 +38,11 @@ h3	{
 	
 }
 
-h4 {
 
-font-family: arial, sans serif;
-font-size: 1em;
-color: white;
-
-}
 
 h5 {
     opacity: 0.8;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Oswald', 'sans-serif'; 
 	font-size: 1em;
 	font-weight: 400;
 	text-shadow: -2px 2px 2px #999;
@@ -63,7 +58,7 @@ ul.lists, ol.bottomlist {
     font-size: 1em;
     font-weight: 800;
     float: left;
-    display: inline;
+    
 
 }
     
@@ -107,22 +102,45 @@ p {
 img.displayed {
 	border: 1px solid rgb(242,227,148);
 	padding: 0px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	float: right;
+	clear: both;
+	
+	
 }
 
-.footer {
+#footer {
 	color: #000;
 	font-size: 15px;
-	width: 31.25%;
 	text-align: center;
 	margin: 10px auto;
 }
 
 
 .bottomlist {
-	text-align: center;
+	
 	list-style-type: none;
+	float: left;
+    font-size: 1em;
+    clear: left;
+    width: 300px;
+	
+	
 }
 
+.gallery {
+
+	float: right;
+	width: 550px;
+	clear: right;
+	color: #666;
+	
+	
+	
+}
+
+.bottomheading {
+
+	color: #999;
+	font-family: Kaushan Script, 'sans-serif';
+}
+	
