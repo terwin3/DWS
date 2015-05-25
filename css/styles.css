@@ -14,7 +14,7 @@
 h1 {
 	color: #F2AE72;
 	border:  0px;
-	font-family: Kaushan Script, Sans Serif;
+	font-family: Kaushan Script, 'Sans-Serif';
 	font-size: 2.5em;
 	font-style: italic;
 	text-shadow: -2px 2px 2px #999;
@@ -42,7 +42,7 @@ h3	{
 
 h5 {
     opacity: 0.8;
-	font-family: 'Oswald', 'sans-serif'; 
+	font-family: Oswald, 'sans-serif'; 
 	font-size: 1em;
 	font-weight: 400;
 	text-shadow: -2px 2px 2px #999;
@@ -90,9 +90,10 @@ p {
 	
 	color: rgb(242,227,148);
 	padding: 20px;
-	background-image: url("../images/pattern.gif");
+	background-image: url("../images/canvas.gif");
+	background-repeat: repeat;
 	line-height: 1.4;
-	font-family: serif, arial;
+	font-family: sans-serif, 'arial';
 	border: 1px solid rgb(242,227,148);
 	border-radius: 10px;
 	
